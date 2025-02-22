@@ -14,7 +14,7 @@ root.render(
     <Navbar/>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home name='Ram' />} />
         <Route path='/counter' element={<Counter />} />
         <Route path='/todo' element={<ToDo />} />
       </Routes>
